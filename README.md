@@ -1,16 +1,12 @@
-# Mall SVY21 Coordinates Web Scaper
-<img src="cover_image.png" width="400" height="400">
+# SG Mall Coordinates Scraper
+In this repository, I have re-built a code that was written 4-years prior (see CREDIT below) to scrape the list of all malls in Singapore and obtain their corresponding coordinates.
+I have also generated an updated 2023 mall_coordinates.csv output file if anyone is interested
 
-This was a quick side-project done to retrieve the SVY21 coordinates of all shopping malls in Singapore as data points for a larger machine learning project to predict property valuations. A web scraper was built to scrape the list of shopping malls off a wikipedia site, and the One Map API was then used to retrieve the SVY21 coordinates using the mall names.
-
-The .csv output file is also added in this repository for reference/ usage.
-
-## Built With
-
+# Built With:
 * [Jupyter Notebook](https://jupyter.org/) - The software used to write and run the code
 * [Python](https://www.python.org/) - Language that code was written in
-* [One Map API](https://docs.onemap.sg/) - Used to generate specific SVY21 coordinates
+* [One Map API](https://docs.onemap.sg/) - Used to generate coordinates
 
-## Authors
-
+# CREDIT
+Shoutout to the original author who inspired my code changes:
 * **Valary Lim** - [Github](https://github.com/ValaryLim) | [Website](valarylim.github.io)
